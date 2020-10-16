@@ -1,0 +1,45 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Login",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": "true",
+      "text": "Please enter your mobile number and password token",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "maxLines": 0
+    },
+    {
+      "type": "Input.Text",
+      "id": "mobile",
+      "placeholder": "Mobile Number"
+    },
+    {
+      "type": "Input.Text",
+      "id": "token",
+      "placeholder": "Password Token"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Proceed",
+      "data": {
+        "x": "proceed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "style": "Person",
+      "url": "https://poistore.blob.core.windows.net/botlogo/170512130145-robot-recruiter-340xa.jpg",
+      "size": "Large",
+      "horizontalAlignment": "center",
+      "width": "250px",
+      "height": "130px"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Dear Candidate, Welcome to MeetU. I am Mr.Pirate . I shall be taking your interview right now.",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": "true",
+      "text": " Please click on Proceed to begin the interview",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "maxLines": 0
+    },
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Proceed",
+      "data": {
+        "x": "proceed"
+      }
+    }
+  ]
+}

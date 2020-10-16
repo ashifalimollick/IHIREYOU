@@ -1,0 +1,46 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+              {
+                "type": "TextBlock",
+                "weight": "bolder",
+                "text": "Question 4:",
+                "size": "Medium",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "Which of the following element is a non-relational storage system for large-scale storage",
+                "wrap": true
+              }
+            ],
+            "style": "good",
+            "bleed": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "A. Compute ",
+          "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "B. Application ",
+            "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "C. Storage ",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "D. None of the mentioned ",
+          "wrap": true
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

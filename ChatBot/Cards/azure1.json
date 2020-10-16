@@ -1,0 +1,46 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+              {
+                "type": "TextBlock",
+                "weight": "bolder",
+                "text": "Question 3:",
+                "size": "Medium",
+                "wrap": true
+              },
+                {
+                    "type": "TextBlock",
+                    "text": "Which Service in Azure is used to manage resources?",
+                    "wrap": true
+                }
+            ],
+            "style": "good",
+            "bleed": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "A. Azure Resource Manager ",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "B. Application Insights ",
+            "wrap": true
+        },
+      {
+        "type": "TextBlock",
+        "text": "C. Log Analytics ",
+        "wrap": true
+      },
+        {
+            "type": "TextBlock",
+            "text": "D. Azure Portal ",
+            "wrap": true
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

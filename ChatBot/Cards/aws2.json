@@ -1,0 +1,41 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+              {
+                "type": "TextBlock",
+                "weight": "bolder",
+                "text": "Question 4:",
+                "size": "Medium",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "Which of the following feature is used for scaling of EC2 sites?",
+                "wrap": true
+              }
+            ],
+            "style": "good",
+            "bleed": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "A. Auto Replica ",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "B. Auto Scaling ",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "C. Auto Ruling ",
+          "wrap": true
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

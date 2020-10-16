@@ -1,0 +1,26 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "TextBlock",
+            "weight": "bolder",
+            "text": "Question 2",
+            "size": "Medium",
+            "wrap": true
+          },
+          {
+            "type": "TextBlock",
+            "text": "How would your current manager describe you?",
+            "wrap": true
+          },
+        ],
+        "style": "good",
+        "bleed": true
+      }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

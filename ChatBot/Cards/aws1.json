@@ -1,0 +1,46 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+              {
+                "type": "TextBlock",
+                "weight": "bolder",
+                "text": "Question 3:",
+                "size": "Medium",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "Which of the following is the central application in the AWS portfolio?",
+                "wrap": true
+              }
+            ],
+            "style": "good",
+            "bleed": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "A. Amazon Elastic Compute Cloud ",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "B. Amazon Simple Queue Service ",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "C. Amazon Simple Notification Service ",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "D. Amazon Simple Storage System ",
+          "wrap": true
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

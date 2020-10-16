@@ -1,0 +1,46 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+              {
+                "type": "TextBlock",
+                "weight": "bolder",
+                "text": "Question 3:",
+                "size": "Medium",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "At what level of an organisation does a corporate manager operate?",
+                "wrap": true
+              }
+            ],
+            "style": "good",
+            "bleed": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "A. Functional ",
+          "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "B. Operational ",
+            "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "C. Mid Level ",
+          "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "D. Top Level ",
+            "wrap": true
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}
